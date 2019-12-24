@@ -80,17 +80,10 @@
  .nav-icons a{
        margin-left: 2em;
  }
- .nav-icons a:hover{
-      background-color: rgba(2, 124, 255, 0.616);
-      border-radius: 5px;
-      width: fit-content;
-      height: fit-content;
- }
 
  .contact-me a{
       color: #027BFF;
       text-decoration: none;
-      margin-right: 2em;
  }
 
  .contact-me img{
