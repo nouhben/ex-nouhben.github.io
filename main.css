@@ -80,15 +80,26 @@
  .nav-icons a{
        margin-left: 2em;
  }
+ .nav-icons a:hover{
+      background-color: rgba(2, 124, 255, 0.616);
+      border-radius: 5px;
+      width: fit-content;
+      height: fit-content;
+ }
 
  .contact-me a{
       color: #027BFF;
       text-decoration: none;
  }
+
  .contact-me img{
        margin-right: 1em;
  }
-
+.contact-me img:hover{
+      background-color: rgba(2, 124, 255, 0.616);
+      transition: all 0.1s;
+      border-radius: 50px;
+}
   /********* Landing ******/
 
   .landing{
@@ -135,7 +146,7 @@
     }
 
 
-       /********* Work 01******/
+/********* Work 01******/
        .work{
             width: 100%;
             position: relative;
@@ -242,10 +253,7 @@ footer a{
       margin: 5px auto 0 auto;
       background-color: #027BFF;
 }
-.underline:hover{
-      width: 220px;
-      transition: ease-in-out .3s;
-}
+
 footer > a:hover .underline-small{
       width: 120px;
       transition: ease-in-out .3s;
