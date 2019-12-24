@@ -1,0 +1,253 @@
+ /********** Global ***********/
+ *{
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       outline: 0;
+       font-size: 100%;
+       vertical-align: baseline;
+       background: transparent;
+ }
+
+ .clearfix::after{
+       content: "";
+       clear: both;
+       display: table;
+ }
+
+ html{
+       font-family: 'Montserrat', sans-serif ;
+       font-weight: 100;
+ }
+
+ body{
+       width: 60%;
+       margin: auto;
+       background: url('./images/BG.png');
+       background-position: top;
+       background-size: cover;
+       background-repeat: no-repeat;
+ }
+
+ h1{
+       font-size: 4em;
+       font-weight: 400;
+       color: #17191a;
+ } 
+ h2{
+       font-size: 3.5em;
+       font-weight: 400;
+       color: #17191a;
+ } 
+ h5{
+       font-size: 1.7em;
+       margin-top: 1em;
+       color: #17191a;
+ }
+
+ p{
+      color: #8F9EA5;
+      opacity: 0.85;
+      font-weight: 100;
+      font-size: 1.5em;
+      margin-top: 1em;
+ }
+
+ .blue{
+       color: #027BFF;
+ }
+
+ /********* NAV ******/
+
+ .nav{
+       display: flex;
+       align-items: center;
+       height: 100px;
+ }
+
+ .contact-me, .nav-icons{
+       flex: 1;
+ }
+ .nav-icons{
+       text-align: right;
+ }
+
+ .nav-icons a, .contact-me a, .contact-me img{
+       display: inline-block;
+       vertical-align: middle;
+ }
+
+ .nav-icons a{
+       margin-left: 2em;
+ }
+
+ .contact-me a{
+      color: #027BFF;
+      text-decoration: none;
+ }
+ .contact-me img{
+       margin-right: 1em;
+ }
+
+  /********* Landing ******/
+
+  .landing{
+        height: 100vh;
+  }
+
+  .landing-wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3em;
+  }
+
+  ul{
+        list-style-type: none;
+        margin-top: 30px;
+        line-height: 30px;
+  }
+
+  .landing-left{
+        margin-top: 4em;
+  }
+
+  .scroll{
+        position: absolute;
+        bottom: 180px;
+        left: 0;
+        right: 0;
+        margin: auto;
+  }
+
+    /********* Landing ******/
+
+    .skills{
+          text-align: center;
+          margin-bottom: 20em;
+    }
+
+    .skills p{
+          margin-bottom: 30px;
+    }
+    .skills img{
+          width: 40px;
+          margin: 0 15px;
+    }
+
+
+       /********* Work 01******/
+       .work{
+            width: 100%;
+            position: relative;
+            margin-bottom: 20em;
+      }
+      
+      .work > .work-text{
+            position: absolute;
+            top: 85px;
+      }
+
+      .work > .work-text > .underline{
+            display: block;
+            background-color: #027BFF;
+            height: 3px;
+            width: 61px;
+            margin-top: 5px;
+      }
+      .work > .work-image{
+            width: 85%;
+            float: right;
+            -webkit-box-shadow: 0px 2px 46px -10px rgba(23,30,36,1);
+            -moz-box-shadow: 0px 2px 46px -10px rgba(23,30,36,1);
+            box-shadow: 0px 2px 46px -10px rgba(23,30,36,1);
+            display: block;
+            margin-left: 1em;
+      }
+      
+      .work ul{
+            position: absolute;
+            bottom: 0;
+            right: 86%;
+      }
+      
+      .work ul li{
+            margin-top: 20px;
+      }
+
+      /********* Work 02******/
+.work2{
+      width: 100%;
+      position: relative;
+      margin-bottom: 20em;
+}
+
+.work2 > .work-text{
+      position: absolute;
+      top: 85px;
+      right: 0;
+      text-align: right;
+}
+
+.work2 > .work-text > .underline{
+      display: block;
+      background-color: #027BFF;
+      height: 3px;
+      width: 61px;
+      margin-top: 5px;
+      float: right;
+}
+.work2 > .work-image{
+      width: 85%;
+      float: left;
+      -webkit-box-shadow: 0px 2px 46px -10px rgba(23,30,36,1);
+      -moz-box-shadow: 0px 2px 46px -10px rgba(23,30,36,1);
+      box-shadow: 0px 2px 46px -10px rgba(23,30,36,1);
+      display: block;
+      margin-right: 1em;
+}
+
+.work2 ul{
+      position: absolute;
+      bottom: 0;
+      left: 86%;
+}
+
+.work2 ul li{
+      margin-top: 20px;
+}
+/***** work and work 02 ****/
+.work a,.work2 a{
+      text-decoration: none;
+      color: #17191A;
+}
+
+/**** footer ***/
+footer{
+      background-image: url('./images/Dribbble_Blue_Large.png');
+      background-repeat: no-repeat;
+      background-size: 320px;
+      background-position: right top;
+      text-align: center;
+      padding-bottom: 7em;
+}
+
+footer a{
+      color: #027BFF;
+      text-decoration: none;
+}
+.underline-small{
+      display: block;
+      height: 3px;
+      width: 60px;
+      margin: 5px auto 0 auto;
+      background-color: #027BFF;
+}
+.underline:hover{
+      width: 220px;
+      transition: ease-in-out .3s;
+}
+footer > a:hover .underline-small{
+      width: 120px;
+      transition: ease-in-out .3s;
+}
+ 
