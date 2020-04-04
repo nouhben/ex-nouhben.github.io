@@ -1,0 +1,3 @@
+# nouhben.github.io
+my personal portfolio ...
+i built this small static website wit html css sass and a bit of js
